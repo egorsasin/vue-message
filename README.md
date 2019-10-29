@@ -1,4 +1,4 @@
-# vue-sandbox
+# vue-message
 
 ## Project setup
 ```
