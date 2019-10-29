@@ -4,5 +4,10 @@ import App from './App.vue'
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  // eslint-disable-next-line
+  render: h => ( 
+    <App>
+      <h3 slot="header">Superman</h3>
+    </App>
+  ) 
 }).$mount('#app')
